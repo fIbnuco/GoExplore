@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  #spk {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    /* background: white; */
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 5px;
+  }
+  
+  /* h1, h2 {
+    text-align: center;
+    color: #333;
+  } */
+  
+  /* p {
+    text-align: center;
+    font-size: 1.1em;
+    color: #666;
+  } */
+  
+  .criteria {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .criteria label {
+    width: 30%;
+    font-weight: bold;
+  }
+  
+  .criteria select {
+    width: 65%;
+    padding: 8px;
+    font-size: 1em;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 10px;
+  }
+  
